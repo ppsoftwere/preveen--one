@@ -1,0 +1,48 @@
+.payment-proceses{
+    background-color: rgb(192, 221, 238);
+    border-radius: 250px 3px 110px 0px;
+    box-shadow: 6px 9px green;
+
+}
+.payment-start-form{
+    margin-left: 160px;
+}
+.payment-start-form h2{
+    text-align: center;
+    color: #000;
+}
+.invalid-feedback{
+    color: red;
+}
+@media screen and (min-width: 300px) and (max-width:900px) {
+    *{
+        margin: 0px;
+        padding: 2px;
+        box-sizing: border-box;
+    }.container-fluid{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        display: block;
+    }
+    .payment-proceses{
+       margin-top: 10px;
+        flex-direction: column;
+        justify-content: flex-end;
+        display: block;
+        border-radius: 150px 3px 80px 0px;
+    }
+    .payment-start-form{
+        margin-left: 50px;
+    }
+    .form-select{
+        margin-left: -50px;
+
+    }
+    .form-check{
+        margin-left: -50px;
+    }
+    button{
+        margin-left: -30px;
+    }
+}

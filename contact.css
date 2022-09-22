@@ -1,0 +1,54 @@
+.contact-mail-call-info{
+    display: flex;
+    justify-content:space-around;
+    background-color: darkgrey;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 0px 20px;
+    box-shadow: 5px 9px darkcyan;
+}
+.web-contact{
+    text-align: center;
+}
+.contact-icons{
+    width: 60px;
+    border-radius: 30px;
+}
+.contact-icons a{
+    width: 40px;
+}
+.web-contact{
+    margin-top: 40px;
+}
+.sms-img{
+    float: right;
+    width: 450PX;
+    bottom: 20PX;
+    margin-top: -180PX;
+    margin-right: 20PX;
+    border-radius: 20PX;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (min-width: 300px) and (max-width:900px) {
+    *{
+        margin: 0px;
+        padding: 2px;
+        box-sizing: border-box;
+    }
+    .contact-mail-call-info{
+        width: auto;flex-direction: column;
+        margin-left: -15px;
+    }
+    .sms-img{
+        flex-direction: column;
+     display: none;
+    }
+    .get-to-touch{
+        margin-left: -39PX;
+    }
+    .social-midia-link{
+        margin-top: 30PX;
+    }
+}

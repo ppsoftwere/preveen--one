@@ -1,0 +1,222 @@
+.services-info{
+  background: url("../DigitalAmhser.html/Images/service\ banner\ img.webp");
+    background-size: 1000%;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    color: orange;
+    text-shadow: 1px 2px rgb(243, 240, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px; 
+}
+
+.services-heading{
+    color: #fff;
+    text-shadow: 1px 2px rgb(252, 46, 46);
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.service-business{
+    position: relative;
+    margin-top: -350px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border: 1px white;
+    color: #fff;
+    text-align: center;
+}
+.service-business img{
+    border: 2px white;
+    border-radius: 20px;
+    background-color: cornsilk;
+    z-index: 2;
+    width: 250px;
+}
+.services-manegement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.service-development-intro h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(20, 24, 255);
+    text-shadow: 2px 2px black;
+    font-size: 60px;
+    font-weight: bold;
+}
+.WEBDesign-metter{
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+
+}
+.WEBDesign-metter{
+    background-color:rgb(235, 252, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 0px 20px;
+    row-gap: 20px;
+
+}
+.WEBDesign-metter h2 {
+    margin-left: 50px;
+    width: 70%;
+    color: rgb(255, 25, 25);
+}
+.WEBDesign-metter p {
+    margin-left: 50px;
+    text-indent: 30px;
+    font-size: 20px;
+    width: 67%;
+  
+}
+.web-img{
+   float: right;
+   margin-right: 10px;
+   margin-top: -120px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+  
+}
+.web-img:hover{
+    transform: translate(1px) scale(1.1);
+    transition: 1.0s;
+    z-index: 2; 
+    transition-duration: 3s;  
+}
+.eco-img{
+    float: right;
+    margin-right: 5px;
+    margin-top: -200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+     
+}
+.Customized-img{
+    float: right;
+    margin-right: 5px;
+    margin-top: -124px;
+    margin-bottom: 20px;
+    border-radius: 10px;  
+}
+.Customized-img:hover{
+    transform: translate(1px) scale(1.1);
+    transition: 1.0s;
+    z-index: 2; 
+    transition-duration: 2s;  
+}
+.CMS-Websites-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(234, 255, 254);
+    border-radius: 20px 0px;
+}
+.CMS-Websites h1{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.CMS-Websites h2{
+    margin-left: 20px;     
+}
+.CMS-Websites p{
+  font-size: 20px;
+  margin-left: 20px;  
+  text-indent: 50px;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width:900px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .services-info h2{
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: -20px;
+    }
+    .service-development{
+        width: 100%;
+        height: auto;
+    }
+    .WEBDesign-metter h2{
+        text-align: left;
+        margin-left: 10px;
+        text-align: center;
+        color: blue;
+    }
+    .WEBDesign-metter p{
+        text-indent: 0px;
+        margin-left: 5px;
+        width: 95%;
+    }
+    .web-img{
+        margin-top: -10px;
+        display: none;
+    }
+    .service-business{
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+    .services-manegement{
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: -100px; 
+        margin-bottom: 120px;
+    }
+   .service-business img{
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+       
+    }
+    .service-business h1{
+        flex-direction: column;
+        justify-content: flex-end;
+        color: rgb(255, 0, 242);
+        display: none;
+       
+        
+    }
+    .Customized-img{
+        margin-top: 15px;
+        margin-bottom: 5px;
+        width: 100%;
+        margin-right: -1px;
+        border: 2px solid;
+        box-shadow: 2px 10px darkslategray;
+    }
+    .container-fluid{
+        width: 100%;   
+    }
+    .CMS-Websites-info{
+        width: 100%;
+    }
+    .CMS-Websites h1 {
+        width: 97%;
+        margin-left: 2px;
+        font-weight: 50px;
+    }
+    .CMS-Websites p{
+        font-size: 22px;
+    }
+    .CMS-Websites h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+      
+}

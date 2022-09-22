@@ -1,0 +1,42 @@
+.Digital-Marketing-Services-info{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(211, 253, 229);
+    border-radius: 0px 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.Digital-Marketing-Serv{
+    margin-left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Digital-Marketing-Serv h1{
+font-size: 55px;
+font-style: oblique;
+}
+.Digital-Marketing-Serv p{
+    width: 95%;
+    font-size: 24px;
+    text-indent: 50px;
+}
+.Digital-Marketing-Serv h2{
+    font-size: 40px; 
+    font-weight: bold; 
+}
+@media screen and (min-width: 300px) and (max-width:900px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .Digital-Marketing-Serv h1{
+        text-align: center;
+        margin-left: -15px;
+    }
+    .Digital-Marketing-Serv p{
+        font-size: 23px;
+    }
+    .Digital-Marketing-Serv h2 {
+        margin-left: 13px;
+    }
+}

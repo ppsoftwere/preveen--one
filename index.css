@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.d-flex {
+    background: linear-gradient(135deg, orange 60%, cyan);
+    opacity: 0.9;
+    
+}
+.fs-4 {
+    margin-top: -15px;
+    width: 90px;
+    border-radius: 10px;
+}
+.nav .nav-pills{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}/*main body*/
+.carousel-item{
+    background-size: cover;
+    opacity: 0.9;
+}
+.carousel-caption{
+    color: rgb(248, 34, 34);
+    text-shadow: 2px 0px rgb(184, 179, 179);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.card:hover{
+    transform: translate(5px) scale(1.1);
+    transition: 2.0s;
+    z-index: 2;
+  }
+.card-text:hover{
+    color: blue;
+}
+.Services-container{
+    width: 100%;
+}
+.Services-container-fluid{
+    background-image: url("../DigitalAmhser.html/Images/it\ compeny\ img\ 1.jpg");
+    opacity: 0.6;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.services-datails{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    margin-top: 80px;
+    width: 600px;
+    margin-left: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    opacity: 1.5;
+    text-shadow:  4px 2px #000000;
+    
+}
+
+/* fotter*/
+.fotter-nav{
+    background:linear-gradient(135deg, orange 60%, cyan);
+    width: 100%;
+    height: 350px;
+}
+.fs-3{
+    margin-top: 50px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.fotter-bar{
+    display: flex;
+   color: #fff;
+   font-family: Times, serif;
+   margin-top: 50px;
+   margin-left: 60px;
+   text-shadow: 0 0 3px #3b3939
+}
+.fotter-logo{
+    margin-left: -30px;
+}
+.social-midia-link{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.page-links{
+    margin-left: 90px;  
+}
+li{
+    list-style: none;
+}
+.copy-right{
+    background: linear-gradient(95deg, rgb(3, 243, 243) 60%, rgb(255, 255, 255));
+    opacity: 0.9;
+    border-radius: 10px;
+    text-align: center;
+}
+/*port folio*/
+.portfolio-savr{
+    margin-left: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.android-app-flex{
+        display: flex; 
+        margin-left: -400px;
+       
+}
+.Android-App{
+    width: 95%;
+    border: 2px solid;
+    margin-right: 50px;
+    text-align: center;
+    border-radius: 20px 0px;
+    background-color: rgb(193, 246, 250);
+  
+}
+.Android-App:hover{
+    transform: translate(5px) scale(1.1);
+    transition: 2.0s;
+    z-index: 2;   
+}
+.Android-App img{
+   border-radius: 20px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width:900px) {
+
+    *{
+        margin: 0px;
+        padding: 2px;
+        box-sizing: border-box;  
+    }
+    body{
+        margin: 0px;
+        padding: 2px;
+        box-sizing: border-box;
+    }.fotter-bar{
+        flex-direction: column;
+        justify-content: flex-end;
+        display: block;
+        height: 800px;
+    }
+    .fotter-nav{
+        height: auto;
+    }
+    .page-links{
+        margin-left: -15px;
+        font-size: medium;
+    }
+    .portfolio-savr{
+        margin-left: -30px;
+    }
+    .android-app-flex{
+    flex-direction: column;
+    margin-left: -10px;
+    width: fit-content;
+    }
+    .Android-App{
+        margin-bottom: 50px;
+        border: none;
+        background-color: rgb(175, 250, 255);
+    }
+    .Android-App img{
+        height: 120px;
+    }
+} 
